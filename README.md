@@ -38,7 +38,7 @@ README.md             # Project README
 - Revenue contribution of top 1% and 20% restaurants  
 - Top cuisines by revenue
 
-## Usage Instructions
+## 🚀 Usage Instructions
 1. Import `restaurants.csv` into MySQL database `swiggy`  
 2. Run the scripts in the following order:
    - `window_functions.sql`  
