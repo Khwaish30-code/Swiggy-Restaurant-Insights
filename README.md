@@ -1,4 +1,4 @@
-# 📚 Swiggy Restaurant Revenue & Rating Analysis Using SQL
+# 📚 Swiggy Restaurant Analysis
 
 ## 🔍 Objective
 Analyze Swiggy restaurant performance using cost, rating, and rating_count data to derive actionable business insights city-wise, cuisine-wise, and overall.
