@@ -1,20 +1,20 @@
-# Swiggy Restaurant Revenue & Rating Analysis Using SQL
+# 📚 Swiggy Restaurant Revenue & Rating Analysis Using SQL
 
-## Objective
+## 🔍 Objective
 Analyze Swiggy restaurant performance using cost, rating, and rating_count data to derive actionable business insights city-wise, cuisine-wise, and overall.
 
-## Dataset
+## 📑 Dataset
 - **Source:** Swiggy restaurant dataset  
 - **Rows:** 61,426  
 - **Columns:** id, name, city, cuisine, rating, rating_count, cost  
 - **Location:** `data/restaurants.csv`
 
-## Technologies Used
+## 🛠️ Technologies Used
 - MySQL   
 - SQL (Window Functions, Ranking, CTEs, Subqueries)  
 - VS Code (for editing scripts)  
 
-## Project Structure
+## 📂 Project Structure
 ```
 data/
 ├── restaurants.csv        
@@ -24,14 +24,14 @@ revenue_analysis.sqls
 README.md             # Project README
 ```
 
-## SQL Concepts Demonstrated
+## 💻 SQL Concepts Demonstrated
 1. Window Functions (`AVG() OVER()`, `MIN()`, `MAX()`, `PARTITION BY`)  
 2. Ranking Functions (`RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`)  
 3. Aggregations & Subqueries  
 4. CTEs for top X% revenue analysis  
 5. Filtering & conditional analysis  
 
-## Key Insights
+## 📊 Key Insights
 - Average, minimum, and maximum cost and rating across restaurants  
 - City-wise and cuisine-wise average cost and ranking  
 - Top 5 restaurants by revenue per city and cuisine  
